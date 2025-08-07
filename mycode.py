@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd  #
 import os
 
 # Create a sample DataFrame with column names
@@ -7,11 +7,11 @@ data = {'Name': ['Alice', 'Bob', 'Charlie'],
     'City': ['New York', 'Los Angeles', 'Chicago']
     }
 
-df = pd.DataFrame(data)
+df = pd.DataFrame(data) #creating a data frame
 
 # # Adding new row to df for V2
-#new_row_loc = {'Name': 'GF1', 'Age': 20, 'City': 'City1'}
-#df.loc[len(df.index)] = new_row_loc
+new_row_loc = {'Name': 'GF1', 'Age': 20, 'City': 'City1'}
+df.loc[len(df.index)] = new_row_loc
 
 # # Adding new row to df for V3
 #new_row_loc2 = {'Name': 'GF2', 'Age': 30, 'City': 'City2'}
